@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/bfhl";
+const API_URL = "https://bajaj-finserv-round1-backend.vercel.app/bfhl";
 
 async function submitData() {
 
