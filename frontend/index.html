@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFHL Hierarchy Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>BFHL Hierarchy Processor</h1>
+
+        <textarea
+            id="inputData"
+            placeholder="Enter nodes separated by commas
+
+Example:
+A->B,A->C,B->D"
+        ></textarea>
+
+        <button onclick="submitData()">Process</button>
+
+        <div id="loading"></div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
