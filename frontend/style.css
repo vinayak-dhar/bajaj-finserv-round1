@@ -47,6 +47,16 @@ button:hover {
     background: #1d4ed8;
 }
 
+.button-group{
+    display:flex;
+    gap:12px;
+    margin-top:15px;
+}
+
+.button-group button{
+    flex:1;
+}
+
 #loading {
     text-align: center;
     margin-top: 20px;

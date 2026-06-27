@@ -62,3 +62,8 @@ async function submitData() {
         console.error(err);
     }
 }
+
+function fillExample() {
+    document.getElementById("inputData").value =
+        "A->B,A->C,B->D,C->E,E->F";
+}
